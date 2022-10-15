@@ -11,9 +11,24 @@
     - [cica_glisa.py](01_nedelja/4_stickman.py)
 
 2. nedelja (9. okt)
+    - Obnavljanje: 
+      - [meta.py](02_nedelja/meta.py) ([slika](02_nedelja/meta.png))
+      - [pejzaz.py](02_nedelja/pejzaz.py) ([slika](02_nedelja/pejzaz.png))
+    - [Novi oblici: elipse i mnogouglovi](02_nedelja/novi_oblici.py)
+      ([slika](02_nedelja/novi_oblici.png))
+    - [jelka.py](02_nedelja/jelka.py) ([slika](02_nedelja/jelka.png))
 
 3. nedelja (16. okt)
-
+    - [Funkcije u Python-u](03_nedelja/funkcije.md)
+      - [Obim pravouganika](03_nedelja/0_obim.py)
+      - [Pozdrav!](03_nedelja/1_pozdrav.py)
+    - Koriscenje petlji i funkcija za iscrtavanje scena u Pygame:
+      - [Mala jelka](03_nedelja/2_jelka_mala.py)
+      - [Suma preko petlje](03_nedelja/3_suma_petlja.py)
+        ([slika](03_nedelja/suma_a.png))
+      - [Suma funkcija po x](03_nedelja/4_suma_fje_po_x.py)
+      - [Suma po x i y](03_nedelja/5_suma_fje_po_xy.py)
+        ([slika](03_nedelja/suma_b.png))
 4. nedelja (23. okt)
 
 5. nedelja (30. okt)
