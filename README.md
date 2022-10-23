@@ -10,7 +10,7 @@
     - Sahovska tabla [2x2](01_nedelja/3_sah.py) (bonus: [3x3](01_nedelja/3.5_sah3x3.py))
     - [cica_glisa.py](01_nedelja/4_stickman.py)
 
-2. nedelja (9. okt)
+2. nedelja (9. okt) - Kompleksniji oblici
     - Obnavljanje: 
       - [meta.py](02_nedelja/meta.py) ([slika](02_nedelja/meta.png))
       - [pejzaz.py](02_nedelja/pejzaz.py) ([slika](02_nedelja/pejzaz.png))
@@ -18,7 +18,7 @@
       ([slika](02_nedelja/novi_oblici.png))
     - [jelka.py](02_nedelja/jelka.py) ([slika](02_nedelja/jelka.png))
 
-3. nedelja (16. okt)
+3. nedelja (16. okt) - Funkcije i petlje
     - [Funkcije u Python-u](03_nedelja/funkcije.md)
       - [Obim pravouganika](03_nedelja/0_obim.py)
       - [Pozdrav!](03_nedelja/1_pozdrav.py)
@@ -29,7 +29,22 @@
       - [Suma funkcija po x](03_nedelja/4_suma_fje_po_x.py)
       - [Suma po x i y](03_nedelja/5_suma_fje_po_xy.py)
         ([slika](03_nedelja/suma_b.png))
-4. nedelja (23. okt)
+
+4. nedelja (23. okt) - Vezbanje!
+    - [Auto](/04_nedelja/0_auto.py) 
+      ([slika](/04_nedelja/1_krugovi.png))
+    - [Horizontalni krugovi](/04_nedelja/1_krugovi.py)
+      ([slika](/04_nedelja/1_krugovi.png))
+    - [Vertikalni krugovi](/04_nedelja/2_krugovi_vert.py)
+      ([slika](/04_nedelja/2_krugovi_vert.png))
+
+    Neuradjeni zadaci / zadaci za sledeci cas:
+    - Dijagonala ([slika](/04_nedelja/3_dijagonala.png))
+    - Dijagonala obrnuto ([slika](/04_nedelja/4_dijagonala_II.png))
+    - Stepenice I ([slika](/04_nedelja/5_stepenice.png))
+    - Stepenice II ([slika](/04_nedelja/6_stepenice_II.png))
+    - Kugle u matrici ([slika](/04_nedelja/7_kugle_tabla.png))
+    - Sahovska tabla ([slika](/04_nedelja/8_sahovska_tabla.png))
 
 5. nedelja (30. okt)
 
