@@ -56,7 +56,9 @@
      ([slika](/05_nedelja/8_sahovska_tabla.png))
 
 6. nedelja (6. nov) - Vektori i Kretanje
-
+   - [Vektori](/06_nedelja/0_vektori.py)
+   - [Kretanje](/06_nedelja/1_frame_loop.py)
+   - [Sat](/06_nedelja/2_clock.py) 
 
 
 7. nedelja (20. nov)
