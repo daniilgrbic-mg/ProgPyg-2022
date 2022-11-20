@@ -62,6 +62,8 @@
 
 
 7. nedelja (20. nov)
+   - [Sta je do sada radjeno](/podsetnik.md)
+
 8. nedelja (27. nov)
 9. nedelja (4. dec)
 10. nedelja (11. dec)
