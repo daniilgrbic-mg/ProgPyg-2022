@@ -55,17 +55,24 @@
    - [Sahovska tabla](/05_nedelja/8_sahovska_tabla.py)
      ([slika](/05_nedelja/8_sahovska_tabla.png))
 
-6. nedelja (6. nov) - Vektori i Kretanje
+6. nedelja (6. nov) - Vektori & Kretanje
    - [Vektori](/06_nedelja/0_vektori.py)
    - [Kretanje](/06_nedelja/1_frame_loop.py)
    - [Sat](/06_nedelja/2_clock.py) 
 
-
-7. nedelja (20. nov)
+7. nedelja (20. nov) - Obnavljanje & Animacije smenjivanjem slika
    - [Sta je do sada radjeno](/podsetnik.md)
+   - [Mis u letu](/08_nedelja/primer.py)  
 
-8. nedelja (27. nov)
-9. nedelja (4. dec)
-10. nedelja (11. dec)
+8. nedelja (27. nov) - Maraton
+   - [Snimak za znatizeljne (i odsutne)](https://www.youtube.com/watch?v=AKu9IM5ep2c)
+
+9. nedelja (4. dec) - Odbijanje od zidova
+   - [Mis levo-desno](/09_nedelja/naprednazad_mis.py)
+   - [Lik hoda napred-nazad po sobi - flip funkcija](/09_nedelja/naprednazad_lik.py)
+   - [Mis zaglavljen izmedju 4 zida :'(](/09_nedelja/odbijanje.py) 
+
+10. nedelja (11. dec) - Gravitacija, instaliranje Pygame-a kod kuce, DOMACI 🥳
+
 11. nedelja (18. dec) - rezervni termin
 
