@@ -81,13 +81,13 @@
       - [Tekst zadatka i postupno resenje](/10_nedelja/5_objasnjenje.md)
       - [Kod](/10_nedelja/5_hitac_sa_tragom.py)
 
-    DOMACI 🥳
-    - [Instalacija Python-a i Pygame-a](https://www.youtube.com/watch?v=VXfN90CMam4)
+    **DOMACI 🥳**
+    - [Instalacija Python-a i Pygame-a (video)](https://www.youtube.com/watch?v=VXfN90CMam4)
         - OBAVEZNO dodajte Python u PATH!
         - Komande za instalaciju biblioteka:
             - `pip install pygame`
             - `pip install pygamebg`
-    - [Domaci zadatak](https://www.youtube.com/watch?v=5DX16iL-iVc)
+    - [Domaci zadatak (video)](https://www.youtube.com/watch?v=5DX16iL-iVc)
         1. zadatak - Umetnost
         2. zadatak - Jelka
         3. zadatak - Merdevine (radite sa petljama!)

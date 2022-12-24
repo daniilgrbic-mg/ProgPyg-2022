@@ -76,8 +76,6 @@ Na primer, za vrednosti `FPS=10` i `dt=0.01` dobijamo rezultat koji je mnogo bli
 1571. frejm, t = 15.71 s, pozicija = [785.5, 899.306]
 ```
 
-<hr>
-
 ## Veza izmedju `FPS` i `dt`
 
 Kao sto vidimo, `dt` utice na brzinu i preciznost:
@@ -88,6 +86,4 @@ S druge strane:
 - sto je `FPS` veci, brzina je veca, i animacije je vise "glatka"
 - sto je `FPS` manji, brzina je manja, i animacija krece da "secka"
 
-Dakle, treba da imamo visok `FPS` i mali `dt`? Da, **ALI** bitno je da se shvati da maksimalna vrednost `FPS` zavisi od brzine racunara, i sto je `FPS` veci to racunar trosi vise energije (sto moze biti problem za prenosive uredjaje, na primer). Zato je najbitniji **balans** :)
-
-![](https://media.tenor.com/Hqyg8s_gh5QAAAAC/perfectly-balanced-thanos.gif)
+Dakle, treba da imamo visok `FPS` i mali `dt`? Da, **ALI** bitno je da se shvati da maksimalna vrednost `FPS` zavisi od brzine racunara, i sto je `FPS` veci to racunar trosi vise energije (sto moze biti problem za prenosive uredjaje, na primer). Zato je uvek najbitniji [balans](https://media.tenor.com/Hqyg8s_gh5QAAAAC/perfectly-balanced-thanos.gif) :)
