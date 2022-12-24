@@ -88,11 +88,11 @@
             - `pip install pygame`
             - `pip install pygamebg`
     - [Domaci zadatak (video)](https://www.youtube.com/watch?v=5DX16iL-iVc)
-        1. zadatak - Umetnost
-        2. zadatak - Jelka
-        3. zadatak - Merdevine (radite sa petljama!)
-        4. zadatak - Avion (nije proradio snimak, ideja je da napravite animaciju aviona koji leti na nebu, slicno kao i [ovaj zadatak](/06_nedelja/1_frame_loop.py). Slike mozete preuzeti [ovde](https://github.com/daniilgrbic/ProgPyg-2022/releases/download/slike/slike_veliki_domaci.zip))
-        5. zadatak - Vatra
-        6. zadatak - Lopta (pitajte ako zabodete, moj mejl znate)
-        7. zadatak - Auto ubrzava pa koci (isto zeznuo snimak, ali analogno je sa idejama sa poslednjeg casa - 10. nedelja)
+        - 1 zadatak - Umetnost
+        - 2 zadatak - Jelka
+        - 3 zadatak - Merdevine (radite sa petljama!)
+        - 4 zadatak - Avion (nije proradio snimak, ideja je da napravite animaciju aviona koji leti na nebu, slicno kao i [ovaj zadatak](/06_nedelja/1_frame_loop.py). Slike mozete preuzeti [ovde](https://github.com/daniilgrbic/ProgPyg-2022/releases/download/slike/slike_veliki_domaci.zip))
+        - 5 zadatak - Vatra
+        - 6 zadatak - Lopta (pitajte ako zabodete, moj mejl znate)
+        - 7 zadatak - Auto ubrzava pa koci (isto zeznuo snimak, ali analogno je sa idejama sa poslednjeg casa - 10. nedelja)
     
