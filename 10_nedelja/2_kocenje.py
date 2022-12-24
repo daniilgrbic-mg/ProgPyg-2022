@@ -15,7 +15,7 @@ def frejm():
     global brzina
 
     # u svakom frejmu brzina se SMANJI (jer KOCIMO)
-    # ukoliko je brzina vec nula, ne mozemo dalje da kocimo!
+    # ukoliko je brzina vec nula, ne mozemo dalje da kocimo! (brzina je nula pa stojimo u mestu)
     if brzina > 0:
         brzina -= 1    
          

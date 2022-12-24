@@ -75,9 +75,24 @@
 10. nedelja (11. dec) - Gravitacija, instaliranje Pygame-a kod kuce
     - [Ubrzano kretanje](/10_nedelja/1_ubrzano_kretanje.py)
     - [Usporeno kretanje](/10_nedelja/2_kocenje.py)
+    - [Slobodan pad](/10_nedelja/3_gravitacija.py)
     - [Kosi hitac](/10_nedelja/4_hitac.py)
+    - Hitac sa tragom (racunski zadatak)
+      - [Tekst zadatka i postupno resenje](/10_nedelja/5_objasnjenje.md)
+      - [Kod](/10_nedelja/5_hitac_sa_tragom.py)
 
     DOMACI 🥳
-    - [Instalacija Python-a i Pygame-a]()
-    - [Domaci zadatak]()
+    - [Instalacija Python-a i Pygame-a](https://www.youtube.com/watch?v=VXfN90CMam4)
+        - OBAVEZNO dodajte Python u PATH!
+        - Komande za instalaciju biblioteka:
+            - `pip install pygame`
+            - `pip install pygamebg`
+    - [Domaci zadatak](https://www.youtube.com/watch?v=5DX16iL-iVc)
+        1. zadatak - Umetnost
+        2. zadatak - Jelka
+        3. zadatak - Merdevine (radite sa petljama!)
+        4. zadatak - Avion (nije proradio snimak, ideja je da napravite animaciju aviona koji leti na nebu, slicno kao i [ovaj zadatak](/06_nedelja/1_frame_loop.py). Slike mozete preuzeti [ovde](https://github.com/daniilgrbic/ProgPyg-2022/releases/download/slike/slike_veliki_domaci.zip))
+        5. zadatak - Vatra
+        6. zadatak - Lopta (pitajte ako zabodete, moj mejl znate)
+        7. zadatak - Auto ubrzava pa koci (isto zeznuo snimak, ali analogno je sa idejama sa poslednjeg casa - 10. nedelja)
     
