@@ -72,7 +72,12 @@
    - [Lik hoda napred-nazad po sobi - flip funkcija](/09_nedelja/naprednazad_lik.py)
    - [Mis zaglavljen izmedju 4 zida :'(](/09_nedelja/odbijanje.py) 
 
-10. nedelja (11. dec) - Gravitacija, instaliranje Pygame-a kod kuce, DOMACI 🥳
-   - [Ubrzano kretanje](/10_nedelja/1_ubrzano_kretanje.py)
-   - [Usporeno kretanje](/10_nedelja/2_kocenje.py)
-   - [Kosi hitac](/10_nedelja/4_hitac.py)
+10. nedelja (11. dec) - Gravitacija, instaliranje Pygame-a kod kuce
+    - [Ubrzano kretanje](/10_nedelja/1_ubrzano_kretanje.py)
+    - [Usporeno kretanje](/10_nedelja/2_kocenje.py)
+    - [Kosi hitac](/10_nedelja/4_hitac.py)
+
+    DOMACI 🥳
+    - [Instalacija Python-a i Pygame-a]()
+    - [Domaci zadatak]()
+    
