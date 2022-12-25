@@ -10,7 +10,7 @@ Da bude jasnije evo slike kako izgleda kretanje, zadatak je da nadjemo `x`-koord
 
 ## Kako?
 
-Bice nam potrebne formule ravnomernog i ubrzanog kretanja:
+Bice nam potrebne formule a) ravnomernog i b) ravnomerno ubrzanog kretanja:
 - `pozicija = pocetna_pozicija + brzina * vreme`
 - `pozicija = pocetna_pozicija + brzina * vreme + 1/2 * ubrzanje * vreme_na_kvadrat`
 
@@ -23,9 +23,9 @@ Za `y`-koordinatu vazi:
 - `900 = 450 - 50 * t + 1/2 * 10 * t * t` , odnosno <br>
     `900 = 450 - 50 * t + 5 * t * t`
 
-Ovo mozemo resiti koristeci [kvadratnu formulu](https://sr.wikipedia.org/wiki/Kvadratna_formula) (ukratko, to je formula za resavanje jednacina oblika `a + b*x + c*x*x = 0`, gde je `x` nepoznata, a `a`, `b` i `c` brojevi). Nama ovo nije bitno, bitno je samo da se dobije da je resenje otprilike `15.72`, odnosno `t = 15.72` sekundi.
+Ovo mozemo resiti koristeci [kvadratnu formulu](https://sr.wikipedia.org/wiki/Kvadratna_formula) (ukratko, to je formula za resavanje jednacina oblika `a + b*x + c*x*x = 0`, gde je `x` nepoznata, a `a`, `b` i `c` brojevi). Nama postupak nije bitan, bitno je samo da se dobije da je resenje otprilike `15.72`, odnosno `t = 15.72` sekundi.
 
-> Mozete da proverite rezultat tako sto ubacite `t` u jednacinu `900 = 450 - 50 * t + 5 * t * t`. Dobija se `900 = 899.592`, imamo malu gresku zbog zaokrizvanaj ali to je zanemarljivo.
+> Mozete da proverite rezultat tako sto ubacite `t` u jednacinu `900 = 450 - 50 * t + 5 * t * t`. Dobija se `900 = 899.592`, imamo malu gresku zbog zaokruzivanja ali to je zanemarljivo.
 
 Doslo je vreme da odredimo `x` i da zavrsimo zadatak! Ako `t` ubacimo u jednacinu `x = 0 + 50 * t`, dobijamo `x = 786`.
 
@@ -51,7 +51,7 @@ proslo_frejmova += 1
 proslo_vremena += dt
 ```
 
-Da bi shvatili sta se desava, sve dok je `y < 900` (dakle dok lopta nije pala) ispisujemo broj frejma, proteklo vreme i poziciju. (Ne brinite o tome da razumete ovaj kod, poenta je ispis na terminalu)
+Da bi shvatili sta se desava, sve dok je `y < 900` (dakle dok lopta nije pala) ispisujemo broj frejma, proteklo vreme i poziciju. (Ne brinite o tome da razumete ovaj kod, poenta je ispis na terminalu). Ovako mozemo pratiti kretanje lopte korak po korak.
 ```python
 if poz.y <= 900:
     print(f"{proslo_frejmova}. frejm, t = {proslo_vremena:.2f} s, pozicija = {poz}")
@@ -67,9 +67,9 @@ Sta ovaj program ispisuje? Pogledajmo poslednje 4 linije:
 
 Vidimo da je kretanje trajalo `156` frejmova, sto odgovara bas vremenu ` t = 15.6 sekundi`. Kao sto smo pricali na casu, preciznost simulacije kretanja zavisi od vremnskog koraka `dt` (**sto je `dt` manje, to je kretanje preciznije ali zato traje duze**).
 
-Kako mozemo da povecamo preciznost bez da cekamo 100 godina da se program zavrsi? tako sto **povecamo FPS**! 
+Kako mozemo da povecamo preciznost bez da cekamo 100 godina da se program zavrsi? Tako sto **povecamo FPS**! 
 
-Na primer, za vrednosti `FPS=10` i `dt=0.01` dobijamo rezultat koji je mnogo blizi pravom odgovoru: vreme kretanja je `15.71 sekundi`, a krajnja `x` pozicija je `785` umesto `780`! (prava vrednost je bliza `786`)   
+Na primer, za vrednosti `FPS=10` i `dt=0.01` dobijamo rezultat koji je mnogo blizi pravom odgovoru: vreme kretanja je `15.71 sekundi`, a krajnja `x` pozicija je `785` umesto `780`! (da se podsetimo, prava vrednost je bliza `786`)   
 ```
 1569. frejm, t = 15.69 s, pozicija = [784.5, 897.165]
 1570. frejm, t = 15.70 s, pozicija = [785, 898.235]
