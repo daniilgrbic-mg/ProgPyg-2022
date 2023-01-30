@@ -9,12 +9,6 @@ x = 300
 # poziva se 30 puta u sekundi
 def update():
     global x
-    
-    tasteri = pygame.key.get_pressed()
-    if tasteri[pygame.K_LEFT]:
-        x -= 5
-    if tasteri[pygame.K_RIGHT]:
-        x += 5
 
     prozor.fill(pygame.Color("black"))
     pygame.draw.circle(
@@ -29,7 +23,8 @@ def update():
 def obradi_dogadjaj(dogadjaj):
     global x
 
-    # reagujemo na KEYDOWN dogadjaje, ostalo ignorisemo
+    # reagujemo na KEYDOWN dogadjaje (dakle na svaki pritisak tastera), 
+    # a ostalo ignorisemo
     if dogadjaj.type == pygame.KEYDOWN:
         if dogadjaj.key == pygame.K_LEFT:
             x -= 10
