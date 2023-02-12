@@ -13,6 +13,12 @@ Termini:
   4. Jun  
 ```
 
+#### 12. nedelja (12. feb) - Matrice i Iks-Oks
+  - [Liste u Python-u](/12_nedelja/liste.py)
+  - [Matrice - kreacija, pristup poljima, ispis](/12_nedelja/matrica.py)
+  - [Primer: popunjavanje polja](/12_nedelja/popunavanje.py)
+  - Zadatak: Iks-Oks
+
 #### 11. nedelja (29. jan) - Rad sa tastaturom i misem
   - [Obrada dogadjaja - tekst](/11_nedelja/obrada_dogadjaja.md)
   - [Primer: pomeranje levo-desno](/11_nedelja/0_levo_desno.py)

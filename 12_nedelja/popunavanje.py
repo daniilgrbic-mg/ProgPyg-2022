@@ -20,10 +20,9 @@ def crtaj():
                     (br_kol*200, br_red*200, 200, 200)
                 )
             
-
 def obradi_dogadjaj(dogadjaj):
     if dogadjaj.type == pygame.MOUSEBUTTONDOWN:
-        print(dogadjaj.pos)
+        print(f'{dogadjaj.pos = }')
         x = dogadjaj.pos[0]
         y = dogadjaj.pos[1]
         br_kol = x // 200

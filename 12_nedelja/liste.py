@@ -1,35 +1,42 @@
-dani = ['pon', 'uto', 'sre', 'cet']
+dani = ['ponedeljak', 'utorak', 'sreda', 'cetvrtak']
 
-print(dani)
-print(dani[1])
+print(f'{dani = }')
+print(f'{dani[1] = }')
 
-dani.append('sub')
-print(dani)
+# append(element) dodaje element na kraj liste
+dani.append('subota')
+print(f'{dani = }')
 
-dani[4] = 'pet'
-print(dani)
+# ovako menjamo vrednost elementa sa rednim brojem
+dani[4] = 'petak'
+print(f'{dani = }')
 
-# dani.remove('uto')
-# print(dani)
+# remove(element) uklanja element
+dani.remove('utorak')
+print(f'{dani = }')
+dani = ['ponedeljak', 'utorak', 'sreda', 'cetvrtak', 'petak'] # vracam na staro
 
-# dani.pop(2)
-# print(dani)
+# pop(broj) uklanja element na rednom broju
+dani.pop(2)
+print(f'{dani = }')
+dani = ['ponedeljak', 'utorak', 'sreda', 'cetvrtak', 'petak'] # vracam na staro
 
-if 'sub' in dani:
+if 'subota' in dani:
     print("subota je u listi")
 else:
     print("subota nije u listi")
 
-
-if 'sre' in dani:
+if 'sreda' in dani:
     print("sreda je u listi")
 else:
     print("sreda nije u listi")
 
+# ispituje redne brojeve i dane u nedelji sa brojacem
 # brojac = 1
 # for element in dani:
-#     print(str(brojac) + ". dan u nedelji je", element)
+#     print(f'{brojac}. dan u nedelji je {element}')
 #     brojac += 1
 
+# ispituje redne brojeve i dane u nedelji sa enumerate (brojac ide od 0)
 for i, element in enumerate(dani):
-    print(i, element)
+    print(f'{i+1}. dan u nedelji je {element}')
