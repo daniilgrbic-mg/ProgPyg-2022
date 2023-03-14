@@ -13,7 +13,11 @@ Termini:
   4. Jun  
 ```
 
-#### 12. nedelja (12. feb) - Matrice i Iks-Oks
+#### 14. nedelja (5. Mart) - Resenje za Iks-Oks, implementacija Zmijice
+  - [Iks-Oks](/14_nedelja/iksoks.py) 
+  - [Zmijica](/14_nedelja/zmija.py) 🐍
+
+#### 12. i 13. nedelja (12. i 26. feb) - Matrice i Iks-Oks
   - [Liste u Python-u](/12_nedelja/liste.py)
   - [Matrice - kreacija, pristup poljima, ispis](/12_nedelja/matrica.py)
   - [Primer: popunjavanje polja](/12_nedelja/popunavanje.py)
