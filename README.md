@@ -8,10 +8,13 @@ Termini:
   29. Januar  
   12. i 26. Februar  
   5, 19. i 26. Mart  
-  2. April  
-  7. i 14. Maj  
-  4. Jun  
+  2. April            - kolizije
+  7. i 14. Maj        - Pong
+  4. Jun              
 ```
+
+#### 15. i 16. nedelja (19. i 26. mart) - Connect 4
+  - [Kolona](/16_nedelja/kolona.py)
 
 #### 14. nedelja (5. Mart) - Resenje za Iks-Oks, implementacija Zmijice
   - [Iks-Oks](/14_nedelja/iksoks.py) 

@@ -38,7 +38,8 @@ def obradi_dogadjaj(dogadjaj):
         br_red = y // 200
 
         global potez
-        mat[br_red][br_kol] = potez
-        potez = 3 - potez
+        if mat[br_red][br_kol] == PRAZNO:
+            mat[br_red][br_kol] = potez
+            potez = 3 - potez
 
 pygamebg.frame_loop(30, crtaj, obradi_dogadjaj)
