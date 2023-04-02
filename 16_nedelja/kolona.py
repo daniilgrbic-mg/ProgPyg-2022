@@ -1,30 +1,29 @@
 import pygame
 import pygamebg
 
-prozor = pygamebg.open_window(150,800,"Kolona")
+prozor = pygamebg.open_window(200,800,"Kolona")
 
-kolona = []
-potez = 0
+kolona = ["yellow"]
 
-def crtaj():
+def update_frejm():
     prozor.fill(pygame.Color("blue"))
     for i in range(len(kolona)):
-        x = 75
-        y = 750 - i*100
-        if kolona[i] == 0:
-            pygame.draw.circle(prozor, pygame.Color("yellow"), (x, y), 40)
-        else:
-            pygame.draw.circle(prozor, pygame.Color("red"), (x, y), 40)
+        pygame.draw.circle(
+            prozor, 
+            pygame.Color(kolona[i]), 
+            (100, 750-i*100),
+            40
+        )
 
-def obradi_dogadjaj(dogadjaj):
-    global krugovi
-    global potez
-    if dogadjaj.type == pygame.MOUSEBUTTONDOWN:
-        if dogadjaj.button == pygame.BUTTON_LEFT:
-            kolona.append(potez)
-        if dogadjaj.button == pygame.BUTTON_RIGHT and len(kolona) > 0:
-            kolona.pop()
-        potez = 1 - potez
-        print(kolona)
+def handle_event(event):
+    if event.type == pygame.MOUSEBUTTONDOWN:
+        print(event.button)
+        if event.button == 1:
+            if len(kolona) < 8:
+                kolona.append("yellow")
+        if event.button == 3:
+            if len(kolona) > 0:
+                kolona.pop()
 
-pygamebg.frame_loop(30, crtaj, obradi_dogadjaj)
+
+pygamebg.frame_loop(30, update_frejm, handle_event)

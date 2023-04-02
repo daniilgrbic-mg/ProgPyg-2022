@@ -4,6 +4,9 @@
 
 ## Drugo polugodiste
 ```
+ČASOVI ĆE SE ODRŽAVATI U KABINETU 206 (2. sprat, levo od stepeništa)!
+```
+```
 Termini:
   29. Januar  
   12. i 26. Februar  
@@ -15,6 +18,9 @@ Termini:
 
 #### 15. i 16. nedelja (19. i 26. mart) - Connect 4
   - [Kolona](/16_nedelja/kolona.py)
+  - [Kolona sa 2 igraca](/16_nedelja/kolona_2_boje.py)
+  - [Connect 4 sa casa](/16_nedelja/connect.py)
+  - [Connect 4 potpun](/16_nedelja/connect4.py)
 
 #### 14. nedelja (5. Mart) - Resenje za Iks-Oks, implementacija Zmijice
   - [Iks-Oks](/14_nedelja/iksoks.py) 
