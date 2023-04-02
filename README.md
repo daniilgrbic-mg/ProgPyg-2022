@@ -16,6 +16,12 @@ Termini:
   4. Jun              
 ```
 
+#### 17. nedelja (2. april) - kolizije
+  - [Glatko kretanje bez dogadjaja](/17_nedelja/interakcija.py)
+  - [Presek misa i jednog pravougaonika](/17_nedelja/kursor_jedan.py)
+  - [Presek misa i vise pravougaonika](/17_nedelja/kursor_vise.py)
+  - [Presek igraca (kockice) i vise prepreka](/17_nedelja/kolizije.py)
+
 #### 15. i 16. nedelja (19. i 26. mart) - Connect 4
   - [Kolona](/16_nedelja/kolona.py)
   - [Kolona sa 2 igraca](/16_nedelja/kolona_2_boje.py)
