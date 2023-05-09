@@ -3,18 +3,25 @@
 *Materijali za kurs "Pygame u Pajtonu" za 2022/23 skolsku godinu*
 
 ## Drugo polugodiste
-```
-ČASOVI ĆE SE ODRŽAVATI U KABINETU 206 (2. sprat, levo od stepeništa)!
-```
+
 ```
 Termini:
   29. Januar  
   12. i 26. Februar  
   5, 19. i 26. Mart  
   2. April            - kolizije
-  7. i 14. Maj        - Pong
+  7. i 14. Maj        - pong
   4. Jun              
 ```
+
+#### 18. nedelja (7. maj) - Pong
+  - [Pong](https://www.ponggame.org/)
+  - Koraci u pisanju programa i potrebne teme:
+    1. iscrtajte dva reketa i loptu u centru ekrana ([1. nedelja - osnovni oblici](/01_nedelja/2_krug_duz_pravougaonik.py))
+    2. implementirajte pomeranje reketa kada igraci klikcu 'W' i 'S', i strelice nagore / nadole ([11. nedelja - kretanje na strelice](/11_nedelja/3_kretanje_kontinualno.py))
+    3. pomeranje loptice i odbijanje od zidova ([9. nedelja - skrinsejver mis](/09_nedelja/odbijanje.py))
+    4. odbijanje od reketa ([17. nedelja - kolizije](/17_nedelja/kursor_jedan.py))
+    5. ulepsajte i poboljsajte kako zelite! :)
 
 #### 17. nedelja (2. april) - kolizije
   - [Glatko kretanje bez dogadjaja](/17_nedelja/interakcija.py)
