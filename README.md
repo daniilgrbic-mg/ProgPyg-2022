@@ -14,14 +14,24 @@ Termini:
   4. Jun              
 ```
 
-#### 18. nedelja (7. maj) - Pong
+#### 18. i 19. nedelja (7. i 14. maj) - Pong
   - [Pong](https://www.ponggame.org/)
   - Koraci u pisanju programa i potrebne teme:
     1. iscrtajte dva reketa i loptu u centru ekrana ([1. nedelja - osnovni oblici](/01_nedelja/2_krug_duz_pravougaonik.py))
+        - [v1.0](/19_nedelja/v1.0.py) - osnovno
+        - [v1.1](/19_nedelja/v1.1.py) - izdvajanje bitnih elementata u promenljive
+        - [v1.2](/19_nedelja/v1.2.py) - konstante za velicinu prozora
     2. implementirajte pomeranje reketa kada igraci klikcu 'W' i 'S', i strelice nagore / nadole ([11. nedelja - kretanje na strelice](/11_nedelja/3_kretanje_kontinualno.py))
+        - [v2.0](/19_nedelja/v2.0.py) - kretanje osnovno
+        - [v2.1](/19_nedelja/v2.1.py) - ograniceno kretanje (da ne moze da izadje van ekrana)
     3. pomeranje loptice i odbijanje od zidova ([9. nedelja - skrinsejver mis](/09_nedelja/odbijanje.py))
+        - [v3.0](/19_nedelja/v3.0.py) - osnovno kretanje loptice i odbijanje od zidova
     4. odbijanje od reketa ([17. nedelja - kolizije](/17_nedelja/kursor_jedan.py))
+        - [v4.0](/19_nedelja/v4.0.py) - odbijanje od reketa pomocu collidepoint funkcije
+        - [v4.1](/19_nedelja/v4.1.py) - udarac o levi i desni zid postavlja loptu u centar
+        - [v4.2](/19_nedelja/v4.2.py) - poeni!
     5. ulepsajte i poboljsajte kako zelite! :)
+        - [v5.0](/19_nedelja/v5.0.py) - poeni u naslovu i isprekidana linija na pola ekrana
 
 #### 17. nedelja (2. april) - kolizije
   - [Glatko kretanje bez dogadjaja](/17_nedelja/interakcija.py)
